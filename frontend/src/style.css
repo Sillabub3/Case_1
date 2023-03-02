@@ -1,0 +1,124 @@
+.container{
+       margin: 0;
+      margin-top: auto;
+      background-color: #03a63c;
+}
+
+.logo-img{
+margin-top: -170px;
+margin-left: auto;
+margin-right: auto;
+background-color: #027313;
+}
+.App {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+   
+}
+.addHome {
+      padding: 10px;
+      margin-top: 30px;
+      cursor: pointer;
+      border: none;
+      background-color: #027313;
+      color: white;
+      font-weight: bold;
+}
+  
+h1 {
+      margin-bottom: 50px;
+      color: white;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+h2{
+      color: white;
+      border-radius: 20px;
+}
+h3{
+      color: white;
+}
+span{
+      color: white;
+}
+p{    display: flex;
+      align-items: center;
+      flex-direction: row;
+      color: white;
+      background-color: #03a63c;
+      border-radius: 4px;
+}
+.livros {
+      display: flex;
+      
+}
+.livro{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px 20px;
+        padding: 10px;
+}
+
+img {
+          width: 200px;
+          height: 300px;
+          object-fit: cover;
+}
+  
+button {
+          padding: 3px 6px;
+          background-color: white;
+          cursor: pointer;
+          border-radius: 12px;
+}
+
+.delete {
+          border: 1px solid #F26513;
+          color: rgb(255, 255, 255);
+          margin-top: 20px;
+          margin-right: 50px;
+}
+
+.update {
+          border: 1px solid #F26513;
+          color: rgb(255, 255, 255);
+          margin-left: 120px;
+          margin-top: -47px;
+          
+}
+
+
+  
+.form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+}
+
+input {
+        width: 250px;
+        padding: 10px;
+        border: 1px solid gray;
+}
+  
+textarea {
+        padding: 10px;
+}
+  
+button {
+        border: none;
+        padding: 10px;
+        background-color: white;
+        background-color: #F26513;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 10px;
+}
